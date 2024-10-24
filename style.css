@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.0); /* Transparent background */
+}
+.frame {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1.0); /* Non-transparent frame */
+}
+#top-middle {
+    top: 0;
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    transform: translateX(-50%);
+}
+#right-corner {
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+#right-middle {
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 100px;
+    transform: translateY(-50%);
+}
